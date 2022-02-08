@@ -60,13 +60,23 @@ body{
     font-size: 30px
 }
 .videowrapper{
-    position: relative;
     margin: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.videowrapper > iframe{
-    position: absolute;
-    left: 25%;
-}
+
 .videotitle{
     text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 20px;
+    background-color: rgb(255, 231, 231);
+}
+.footer > p{
+    display:inline;
+    font-size: 24px;
 }
