@@ -44,16 +44,29 @@ body{
 }
 .cattext>*{
     margin: 7px;
-
 }
 #gingerbellwrapper{
     flex-direction: row-reverse;
     background-color:black;
     color:white;
 }
+#gingerbellwrapper a{
+    color: orange;
+}
 .catname{
     font-size: 50px;
 }
 .catdesc{
     font-size: 30px
+}
+.videowrapper{
+    position: relative;
+    margin: 5px 0px;
+}
+.videowrapper > iframe{
+    position: absolute;
+    left: 25%;
+}
+.videotitle{
+    text-align: center;
 }
